@@ -21,14 +21,15 @@ This is a list of awesome resources for hardening your workflows in order to kee
 * [Deniz Onur Duzgun: Github Self-Hosted Runners Configuration](https://github.com/dduzgun-security/github-self-hosted-runners)  
   Best practices to follow to configure GitHub Enterprise Cloud self-hosted runners in a secure way.
 
-## Workflow file scanning
+## Static workflow file scanning
 
-Most of these scanners integrate with GitHub Code Scanning, so [you'll need to set up code scanning merge protection](https://docs.github.com/en/code-security/code-scanning/managing-your-code-scanning-configuration/set-code-scanning-merge-protection) in order for them to be effective.
+All of these scanners use static analysis to detect misconfigurations and vulnerabilities in your workflow files. They can be installed and run locally or run as part of your CI workflow on GitHub Actions. They are all capable of integrating with GitHub Code Scanning, so [you'll need to set up code scanning merge protection](https://docs.github.com/en/code-security/code-scanning/managing-your-code-scanning-configuration/set-code-scanning-merge-protection) in order for them to be effective.
 
 * [Octoscan](https://github.com/synacktiv/octoscan)  
-  A static vulnerability scanner for GitHub action workflows. Available as a GitHub Action.
 * [Poutine](https://github.com/boostsecurityio/poutine)  
-  A security scanner that detects misconfigurations and vulnerabilities in workflow files on several CI/CD platforms. Available as a GitHub Action.
+* [Zizmor](https://github.com/woodruffw/zizmor)  
+
+I'm currently using all three of these scanners on several of my repos. Zizmor appears to be the most comprehensive and most regularly maintained, but Octoscan and Poutine identify several additional vulnerabilities.
 
 ## Workflow and runner hardening
 
