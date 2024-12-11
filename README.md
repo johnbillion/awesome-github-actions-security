@@ -36,8 +36,6 @@ Most of these scanners integrate with GitHub Code Scanning, so [you'll need to s
   Provides network egress filtering and runtime security for GitHub-hosted and self-hosted runners.
 * [Secure-Repo](https://github.com/step-security/secure-repo)  
   Automatically applies security best practices in your GitHub repository. Covers GitHub Actions workflows plus a few other security related configurations.
-* [update-github-actions-permissions](https://github.com/pkgdeps/update-github-actions-permissions)  
-  A CLI that updates GitHub Actions's `permissions` automatically.
 
 ## Shell script scanning
 
