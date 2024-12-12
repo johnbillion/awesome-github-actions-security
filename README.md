@@ -59,6 +59,7 @@ I'm currently using all three of these scanners on several of my repos. Zizmor a
 ## Related awesome lists
 
 * [Awesome Actions](https://github.com/sdras/awesome-actions)
+* [Awesome Software Supply Chain Security](https://github.com/bureado/awesome-software-supply-chain-security)
 
 ## License
 
