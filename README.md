@@ -29,7 +29,7 @@ All of these scanners use static analysis to detect misconfigurations and vulner
 * [Poutine](https://github.com/boostsecurityio/poutine)  
 * [Zizmor](https://github.com/woodruffw/zizmor)  
 
-I'm currently using all three of these scanners on several of my repos. Zizmor appears to be the most comprehensive and most regularly maintained, but Octoscan and Poutine identify several additional vulnerabilities.
+I'm currently using all three of these scanners on several of my repos. Zizmor and Octoscan appear to be the most comprehensive and most regularly maintained. Poutine identifies a few additional vulnerabilities.
 
 ## Workflow and runner hardening
 
