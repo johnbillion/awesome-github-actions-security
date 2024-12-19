@@ -25,11 +25,11 @@ This is a list of awesome resources for hardening your workflows in order to kee
 
 All of these scanners use static analysis to detect misconfigurations and vulnerabilities in your workflow files. They can be installed and run locally or run as part of your CI workflow on GitHub Actions. They are all capable of integrating with GitHub Code Scanning, so [you'll need to set up code scanning merge protection](https://docs.github.com/en/code-security/code-scanning/managing-your-code-scanning-configuration/set-code-scanning-merge-protection) in order for them to be effective.
 
-* [Octoscan](https://github.com/synacktiv/octoscan)  
-* [Poutine](https://github.com/boostsecurityio/poutine)  
-* [Zizmor](https://github.com/woodruffw/zizmor)  
+* [Octoscan](https://github.com/synacktiv/octoscan) ([List of rules here](https://github.com/synacktiv/octoscan?tab=readme-ov-file#rules))
+* [Poutine](https://github.com/boostsecurityio/poutine) ([List of rules here](https://boostsecurityio.github.io/poutine/))
+* [Zizmor](https://github.com/woodruffw/zizmor) ([List of rules here](https://woodruffw.github.io/zizmor/audits/))
 
-I'm currently using all three of these scanners on several of my repos. Zizmor and Octoscan appear to be the most comprehensive and most regularly maintained. Poutine identifies a few additional vulnerabilities.
+I'm currently using all three of these scanners on several of my repos. The scanners are all actively maintained and between them they provide good coverage of many aspects of workflow file security best practices as well as detecting misconfigurations and vulnerabilities.
 
 ## Workflow and runner hardening
 
