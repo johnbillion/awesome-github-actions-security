@@ -29,7 +29,7 @@ All of these scanners use static analysis to detect misconfigurations and vulner
 * [Poutine](https://github.com/boostsecurityio/poutine) ([List of rules here](https://boostsecurityio.github.io/poutine/))
 * [Zizmor](https://github.com/woodruffw/zizmor) ([List of rules here](https://woodruffw.github.io/zizmor/audits/))
 
-I'm currently using all three of these scanners on several of my repos. The scanners are all actively maintained and between them they provide good coverage of many aspects of workflow file security best practices as well as detecting misconfigurations and vulnerabilities.
+I'm currently using all three of these scanners on several of my repos. The scanners are all actively maintained and together they provide good coverage of many aspects of workflow file security best practices as well as detecting misconfigurations and vulnerabilities.
 
 ## Workflow and runner hardening
 
