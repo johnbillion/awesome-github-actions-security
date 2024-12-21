@@ -11,6 +11,7 @@ This is a list of awesome resources for hardening your workflows in order to kee
 * [GitHub Docs: Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions)
 * [GitHub Blog: Tips to keep your GitHub Actions workflows secure](https://github.blog/security/supply-chain-security/four-tips-to-keep-your-github-actions-workflows-secure/)
 * [GitHub Blog: Security best practices for authors of GitHub Actions](https://github.blog/security/application-security/security-best-practices-for-authors-of-github-actions/)
+* [GitHub Blog: Reach SLSA Level 3 with GitHub Artifact Attestations](https://github.blog/enterprise-software/devsecops/enhance-build-security-and-reach-slsa-level-3-with-github-artifact-attestations/)
 
 ## Unofficial resources
 
