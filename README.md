@@ -32,6 +32,11 @@ All of these scanners use static analysis to detect misconfigurations and vulner
 
 I'm currently using all three of these scanners on several of my repos. The scanners are all actively maintained and together they provide good coverage of many aspects of workflow file security best practices as well as detecting misconfigurations and vulnerabilities.
 
+## Security posture analysis
+
+* [GitHub Action for OpenSSF Scorecard](https://github.com/ossf/scorecard-action)  
+  Monitors and tracks the security metrics of your GitHub project, including best practices for GitHub Actions workflow files as well as many other checks. Several of the checks are opinionated which can be off-putting, but overall a valuable enough tool to recommend.
+
 ## Workflow and runner hardening
 
 * [Harden-Runner](https://github.com/step-security/harden-runner)  
