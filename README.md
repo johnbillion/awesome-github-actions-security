@@ -57,6 +57,18 @@ I'm currently using all three of these scanners on several of my repos. The scan
 * [Github Attack TOolkit](https://github.com/AdnaneKhan/Gato-X)  
   A fast scanning and attack tool for GitHub Actions pipelines.
 
+## Sponsors
+
+The time that I spend maintaining this project and others is in part sponsored by:
+
+[![Automattic](https://cdn.jsdelivr.net/gh/johnbillion/johnbillion/assets/sponsors/automattic.png)](https://automattic.com)
+
+Plus all my kind sponsors on GitHub:
+
+[![Sponsors](https://cdn.jsdelivr.net/gh/johnbillion/johnbillion/sponsors.svg)](https://github.com/sponsors/johnbillion)
+
+[Click here to find out about supporting this project and my other WordPress development tools and plugins](https://github.com/sponsors/johnbillion).
+
 ## Related awesome lists
 
 * [Awesome Actions](https://github.com/sdras/awesome-actions)
