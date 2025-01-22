@@ -47,7 +47,7 @@ I'm currently using [all four of these scanners](https://github.com/johnbillion/
 
 ## Shell script scanning
 
-
+* [Shellcheck](https://github.com/koalaman/shellcheck) is the defacto solution for statically scanning and analysing shell scripts for correctness and security. It's included in various other tools such as Actionlint and Octoscan.
 
 ## Container scanning
 
