@@ -19,8 +19,6 @@ This is a list of awesome resources for hardening your workflows in order to kee
   This is the non-curated source of many of the tools in this list.
 * [OpenSSF: Mitigating Attack Vectors in GitHub Workflows](https://openssf.org/blog/2024/08/12/mitigating-attack-vectors-in-github-workflows/)  
   An overview of the most common attack vectors on GitHub workflows and recommendations on how to secure them.
-* [Deniz Onur Duzgun: Github Self-Hosted Runners Configuration](https://github.com/dduzgun-security/github-self-hosted-runners)  
-  Best practices to follow to configure GitHub Enterprise Cloud self-hosted runners in a secure way.
 
 ## Static workflow file scanning
 
@@ -55,6 +53,20 @@ I'm currently using [all four of these scanners](https://github.com/johnbillion/
   A vulnerability scanner for container images and filesystems.
 * [Docker Scout](https://www.docker.com/products/docker-scout/) and [Docker Scout GitHub Action](https://github.com/docker/scout-action)  
   Identifies security issues, outdated packages, and potential compliance problems within container images. The GitHub Action runs Docker Scout as part of your workflows.
+
+## Self-hosted runner security
+
+Self-hosted Actions runners pose a higher security risk than the runners provided by GitHub. The main considerations are:
+
+* Self-hosted runners are usually not ephemeral and therefore the risk of poisoning or interference between runs is higher.
+* Self-hosted runners potentially allow access to a private network.
+
+Resources:
+
+* [GitHub Docs: About self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners)  
+  Official docs about self-hosted runners.
+* [Deniz Onur Duzgun: Github Self-Hosted Runners Configuration](https://github.com/dduzgun-security/github-self-hosted-runners)  
+  Best practices to follow to configure GitHub Enterprise Cloud self-hosted runners in a secure way.
 
 ## Research and hacking
 
