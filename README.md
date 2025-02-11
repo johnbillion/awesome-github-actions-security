@@ -2,7 +2,7 @@
 
 > A curated list of awesome things related to securing your GitHub Actions workflows.
 
-GitHub Actions workflow files are extremely powerful. Don't let their ease of implementation give you a false sense of security. It's easy to introduce supply chain vulnerabilities if you don't fully understand how workflow files are parsed and used by GitHub Actions.
+GitHub Actions workflow files are extremely powerful and operate in a highly privileged software supply chain environment by default. Don't let their ease of implementation give you a false sense of security. It's easy to introduce supply chain vulnerabilities if you don't fully understand how workflow files are parsed and used by GitHub Actions.
 
 This is a list of awesome resources for hardening your workflows in order to keep your CI/CD pipelines secure.
 
@@ -11,6 +11,7 @@ This is a list of awesome resources for hardening your workflows in order to kee
 * [GitHub Docs: Security hardening for GitHub Actions](https://docs.github.com/en/actions/security-for-github-actions/security-guides/security-hardening-for-github-actions)
 * [GitHub Blog: Tips to keep your GitHub Actions workflows secure](https://github.blog/security/supply-chain-security/four-tips-to-keep-your-github-actions-workflows-secure/)
 * [GitHub Blog: Security best practices for authors of GitHub Actions](https://github.blog/security/application-security/security-best-practices-for-authors-of-github-actions/)
+* [GitHub Blog: How to secure your GitHub Actions workflows with CodeQL](https://github.blog/security/application-security/how-to-secure-your-github-actions-workflows-with-codeql/)
 * [GitHub Blog: Reach SLSA Level 3 with GitHub Artifact Attestations](https://github.blog/enterprise-software/devsecops/enhance-build-security-and-reach-slsa-level-3-with-github-artifact-attestations/)
 
 ## Unofficial resources
@@ -74,6 +75,8 @@ Resources:
   Writings, scripts, and other results of GitHub Actions workflows vulnerabilities research.
 * [Github Attack TOolkit](https://github.com/AdnaneKhan/Gato-X)  
   A fast scanning and attack tool for GitHub Actions pipelines.
+* [GitHub Actions Cache Blasting](https://github.com/AdnaneKhan/ActionsCacheBlasting)  
+  Proof-of-concept code for research into GitHub Actions Cache poisoning.
 
 ## Sponsors
 
