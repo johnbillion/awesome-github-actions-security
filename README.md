@@ -44,6 +44,9 @@ I'm currently using [all four of these scanners](https://github.com/johnbillion/
 * [Secure-Repo](https://github.com/step-security/secure-repo)  
   Automatically applies security best practices in your GitHub repository. Covers GitHub Actions workflows plus a few other security related configurations.
 
+* [gh-workflow-hardener](https://github.com/indoor47/gh-workflow-hardener)  
+  Pins all unpinned GitHub Actions in your workflow files to their exact commit SHAs, preventing supply chain attacks from mutable tags. Available as a CLI tool and a GitHub Action.
+
 ## Shell script scanning
 
 * [Shellcheck](https://github.com/koalaman/shellcheck) is the defacto solution for statically scanning and analysing shell scripts for correctness and security. It's included in various other tools such as Actionlint and Octoscan.
