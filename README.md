@@ -1,4 +1,4 @@
-# Awesome GitHub Actions Security [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome GitHub Actions Security
 
 > A curated list of awesome things related to securing your GitHub Actions workflows.
 
