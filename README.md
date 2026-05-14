@@ -36,6 +36,8 @@ I'm currently using [all four of these scanners](https://github.com/johnbillion/
 
 * [GitHub Action for OpenSSF Scorecard](https://github.com/ossf/scorecard-action)  
   Monitors and tracks the security metrics of your GitHub project, including best practices for GitHub Actions workflow files as well as many other checks. Several of the checks are opinionated which can be off-putting, but overall a valuable enough tool to recommend.
+* [AI Change Passport](https://github.com/P-r-e-m-i-u-m/ai-change-passport)  
+  Generates signed provenance reports for AI-assisted pull requests, including workflow, dependency, sensitive-file, and approval signals.
 
 ## Workflow and runner hardening
 
