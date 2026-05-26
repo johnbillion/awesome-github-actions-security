@@ -36,6 +36,8 @@ I'm currently using [all four of these scanners](https://github.com/johnbillion/
 
 * [GitHub Action for OpenSSF Scorecard](https://github.com/ossf/scorecard-action)  
   Monitors and tracks the security metrics of your GitHub project, including best practices for GitHub Actions workflow files as well as many other checks. Several of the checks are opinionated which can be off-putting, but overall a valuable enough tool to recommend.
+* [Moat by Laravel](https://github.com/laravel/moat)  
+  Moat reviews the security posture of your GitHub organization and repositories, then surfaces recommendations to consider. Moat covers checks across two-factor authentication, branch protection, signed commits, secret scanning, Dependabot alerts, workflow permissions, pinned actions, repository webhooks, and others.
 
 ## Workflow and runner hardening
 
