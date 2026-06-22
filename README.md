@@ -20,6 +20,8 @@ This is a list of awesome resources for hardening your workflows in order to kee
   This is the non-curated source of many of the tools in this list.
 * [OpenSSF: Mitigating Attack Vectors in GitHub Workflows](https://openssf.org/blog/2024/08/12/mitigating-attack-vectors-in-github-workflows/)  
   An overview of the most common attack vectors on GitHub workflows and recommendations on how to secure them.
+* [HAIT: 12 Steps to Secure GitHub Actions After the Trivy Attack](https://haitmg.pl/blog/github-actions-security-after-trivy-attack/)  
+  A practical hardening checklist covering pin-by-SHA, OIDC, least-privilege tokens, and other defenses prompted by the 2025 Trivy supply chain incident.
 
 ## Static workflow file scanning
 
